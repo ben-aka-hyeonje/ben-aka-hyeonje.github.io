@@ -1,0 +1,13 @@
+
+body {
+  width: auto; /* Full width by default */
+  margin: 0;   /* Remove default margins */
+}
+
+/* Styles for screens wider than 1024px (desktops) */
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 720px; /* Set a specific width for desktops */
+    margin: 0 auto; /* Center the body horizontally on the page */
+  }
+}
