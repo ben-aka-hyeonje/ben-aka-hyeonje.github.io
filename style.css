@@ -1,13 +1,14 @@
 
 body {
-  width: auto; /* Full width by default */
-  margin: 0;   /* Remove default margins */
+  width: auto;
+  margin: 10px;
+  font-family: monospace;
 }
 
 /* Styles for screens wider than 1024px (desktops) */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 720px) {
   body {
-    width: 720px; /* Set a specific width for desktops */
+    width: 600px; /* Set a specific width for desktops */
     margin: 0 auto; /* Center the body horizontally on the page */
   }
 }
