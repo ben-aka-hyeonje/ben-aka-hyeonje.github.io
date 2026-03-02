@@ -3,6 +3,13 @@ body {
   width: auto;
   margin: 10px;
   font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	font-size: 1em;
+	margin: 0 auto;
+	padding: none;
+	text-align: left;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
 }
 
 /* Styles for screens wider than 1024px (desktops) */
