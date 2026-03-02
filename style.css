@@ -1,15 +1,43 @@
 
 body {
 	width: auto;
-	margin: 10px;
 	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 	font-size: 1em;
 	margin: 0 auto;
-	padding: none;
+	padding: 0 0 50px 0;
 	text-align: left;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
+}
+
+a {
+	color: #005eff;
+}
+
+a:visited {
+	color: #005eFF;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size: 1.2em;
+	line-height: 1em;
+	margin: 20px 0 0 0;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin: 20px 0 0 0;
+}
+
+li {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+form {
+	margin-top: 20px;
 }
 
 nav ul {
@@ -19,7 +47,7 @@ nav ul {
 }
 
 nav ul li {
-	padding: 0 20px 0 0;
+	padding: 0 25px 0 0;
 }
 
 /* Styles for screens wider than 1024px (desktops) */
