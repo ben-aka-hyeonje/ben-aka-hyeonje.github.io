@@ -4,7 +4,7 @@ body {
 	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 	font-size: 1em;
 	margin: 0 auto;
-	padding: 0 0 50px 0;
+	padding: 50px 25px 100px 25px;
 	text-align: left;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -55,5 +55,6 @@ nav ul li {
   body {
     width: 600px; /* Set a specific width for desktops */
     margin: 0 auto; /* Center the body horizontally on the page */
+    padding: 0 0 25px 0;
   }
 }
