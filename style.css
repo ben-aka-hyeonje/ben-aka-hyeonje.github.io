@@ -4,7 +4,8 @@ body {
 	font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 	font-size: 1em;
 	margin: 0 auto;
-	padding: 50px 25px 100px 25px;
+	margin-bottom: 50px;
+	padding: 15px 15px 15px 15px;
 	text-align: left;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
